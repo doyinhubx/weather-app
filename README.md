@@ -12,7 +12,7 @@ Here are links to each part of the series:
 
 1. [GitHub Actions Deep Dive: A CI/CD Introduction](url)
 2. [How to Build a Weather Dashboard with HTML and JavaScript](url)
-3. [Continuous Integration for Node.js Apps Using GitHub Actions](url)
+3. [Continuous Integration for Node.js Apps Using GitHub Actions](url) [THIS GUIDE]
 4. [Advanced CI/CD Workflows with Docker, Linting, and Git Hooks](url)
 5. [Advanced CI/CD Automation: Job Caching, Matrix Builds, and Conditional Deployments](url)
 6. [Building a CI/CD Pipeline for GitHub Pages with GitHub Actions](url)
