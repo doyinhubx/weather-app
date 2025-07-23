@@ -32,23 +32,28 @@ Here are links to each part of the series:
 
 ```
 weather-app/
-├── public/ # Static assets served to the browser
-│ ├── index.html # Main HTML UI
-│ ├── styles.css # App styling
-│ └── bundle.js # Bundled JavaScript (auto-generated)
-├── src/ # Application source code
-│ ├── main.js # App entry point
-│ ├── services/ # API calls or mock data
-│ │ ├── currentWeather.js
-│ │ └── forecast.js
-│ ├── utils/ # DOM utilities
-│ │ └── dom.js
-│ └── data/ # Static/mock data (optional fallback)
-│ ├── current.json
-│ └── forecast.json
-├── server.js # Express server
-├── package.json # Project metadata & scripts
-└── README.md # You're here!
+├── public/                    # Static assets served to the browser
+│   ├── index.html             # Main HTML UI
+│   ├── styles.css             # App styling
+│   └── bundle.js              # Bundled JavaScript (auto-generated)
+├── src/                       # Application source code
+│   ├── main.js                # App entry point
+│   ├── weather.js             # Handles weather API test logic (e.g., wttr.in requests)
+│   ├── services/              # API access or mock data services
+│   │   ├── currentWeather.js  # Handles current weather mock data
+│   │   └── forecast.js        # Handles 5-day forecast mock data
+│   ├── utils/                 # Utility functions (e.g., DOM manipulation)
+│   │   └── dom.js             # Reusable DOM helper functions
+│   ├── data/                  # Static or fallback JSON data
+│   │   ├── current.json       # Mock current weather data
+│   │   └── forecast.json      # Mock forecast data
+│   └── __tests__/             # Automated test files
+│       └── weather.test.js    # Unit tests for weather.js using Jest
+├── server.js                  # Express server to serve files and API
+├── jest.config.js             # Jest configuration (test environment, coverage rules)
+├── .gitignore                 # Files/folders Git should ignore (e.g., node_modules, .env)
+├── package.json               # Project metadata, dependencies, and scripts
+└── README.md                  # You're here! Project overview and instructions
 ```
 
 
