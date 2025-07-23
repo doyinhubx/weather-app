@@ -76,14 +76,6 @@ Runs the backend on http://localhost:5000
 
 Watches for changes in `main.js` and rebuilds `bundle.js`
 
-## 📦 Available Scripts
-
-Command	Description
-
-npm run build	Bundle JS manually via Browserify
-npm run watch	Watch & rebuild JS using Watchify
-npm start	Run the Express backend
-npm run dev	Watch + serve in one step (for development)
 
 
 🛡️ License
